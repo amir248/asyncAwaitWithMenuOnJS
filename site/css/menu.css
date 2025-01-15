@@ -30,6 +30,7 @@ nav > div{
     transition: all ease-out 1s;
     font-size:0;
     flex-direction: column;
+    opacity:0;
 }
 
 .openMenu > h3 > a{
