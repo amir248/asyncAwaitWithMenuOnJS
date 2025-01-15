@@ -1,0 +1,34 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+    max-width:1300px;
+}
+main{
+    width:100%;
+    max-width:1300px;
+    font-size:20px;
+}
+body > main > img{
+    width:100%;
+    max-width:1300px;
+}
+footer{
+    width:100%;
+    background-color: black;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+footer > span{
+    font-size: 33px;
+    margin-right:27px;
+}
+footer > span:nth-child(3){
+    margin-left:27px;
+}

@@ -1,0 +1,42 @@
+nav > div > span{
+    width:70px;
+    height:3px;
+    background-color: black;
+    display:block;
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+}
+nav > div{
+    height:70px;
+    display:grid;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.openMenu{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:0px;
+    height:100vh;
+    position: fixed;
+    top:0;
+    left:0;
+    background-color: rgb(157, 78, 189);
+    transition: all ease-out 1s;
+    font-size:0;
+    flex-direction: column;
+}
+
+.openMenu > h3 > a{
+    color:rgb(100, 221, 76);
+    text-shadow:black 3px 3px;
+    text-decoration: none;
+}
+.openMenu > h3 > a:hover{
+    color:coral;
+}
