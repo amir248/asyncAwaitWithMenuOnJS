@@ -1,0 +1,32 @@
+body > main > gallery-element > picture > img{
+    width:100%;
+    max-width:1300px;
+    display:none;
+    overflow: hidden;
+    transition:all 3s ease-out;
+    opacity:0;
+    position:relative;
+    /* right:100%; */
+}
+body > main > gallery-element > picture{
+    overflow:hidden;
+    transition:all 3s ease-out;
+    /* opacity:0; */
+    position:absolute;
+}
+body > main > gallery-element > picture:nth-child(1) > img{
+    display:block;
+    transition:all 3s ease-out;
+    opacity:1;
+    left:0;
+    width:100%;
+    max-width:1300px;
+    overflow: hidden;
+}
+body > main > gallery-element{
+    display:flex;
+    overflow: hidden;
+    transition:all 3s ease-out;
+}
+/* body > main:nth-child(1) > gallery-element:nth-child(2) > picture:nth-child(6) > img:nth-child(1) */
+/* body > main:nth-child(1) > gallery-element:nth-child(2) > picture:nth-child(7) > img:nth-child(1) */
